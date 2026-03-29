@@ -65,15 +65,12 @@
 					</div>
 					<ul class="social-icons">
 						<li>
-							<a target="_blank" href="https://bluepandaremodeling.com/" class="social-facebook" title="facebook"></a>
+							<a target="_blank" href="https://www.facebook.com/BLUEPANDAREMODELING" class="social-facebook" title="facebook"></a>
 						</li>
-						<li>
+						<!--<li>
 							<a target="_blank" href="https://bluepandaremodeling.com/" class="social-twitter" title="twitter"></a>
 						</li>
 						<li>
-							<a target="_blank" href="https://bluepandaremodeling.com/" class="social-youtube" title="youtube"></a>
-						</li>
-						<!--<li>
 							<a title="" href="https://1.envato.market/quanticalabs" class="social-google-plus"></a>
 						</li>
 						<li>
@@ -187,7 +184,7 @@
 												</a>
 											</li>
 											<li>
-												<a href="kitchen_and_livingRoom_renovation.html" title="Kitchen and Living Room Renovation">
+												<a href="service_kitchen_and_livingRoom_renovation.html" title="Kitchen and Living Room Renovation">
 													Kitchen and Living Room Renovation
 												</a>
 											</li>
@@ -203,10 +200,6 @@
 											</li>
 										</ul>
 									</li>
-									<li>
-										<a href="projects.html" title="Projects">
-											PROJECTS
-										</a>
 										<ul>
 											<li>
 												<a href="project_interior_renovation.html" title="Interior Renovation">
@@ -315,7 +308,7 @@
 													</a>
 												</li>
 												<li>
-													<a href="kitchen_and_livingRoom_renovation.html" title="Kitchen and Living Room Renovation">
+													<a href="service_kitchen_and_livingRoom_renovation.html" title="Kitchen and Living Room Renovation">
 														Kitchen and Living Room Renovation
 													</a>
 												</li>
@@ -434,17 +427,18 @@
 							
 							<div class="row">
 								<fieldset class="column column-1-2">
-									<input class="text-input" name="name" type="text" value="Your Name *" id="userName" placeholder="Your Name *">
-									<input class="text-input" name="email" type="text" value="Your Email *" id="email_id" placeholder="Your Email *">
-									<input class="text-input" id="phone" name="phone" type="text" value="Your Phone" placeholder="Your Phone">
+									<input class="text-input" name="name" type="text" id="userName" placeholder="Your Name *" required>
+									<input class="text-input" name="email" type="text" id="email_id" placeholder="Your Email *" required>
+									<input class="text-input" id="phone" name="phone" type="text" placeholder="Your Phone">
 									<input type="hidden" name="_autoresponse" value="Thank you for your inquiry. We will respond it as soon as possible. Thanks">
 								</fieldset>
 								<fieldset class="column column-1-2">
-									<textarea id="message" name="message" placeholder="Message *">Message *</textarea>
+									<textarea id="message" name="message" placeholder="Message *" required></textarea>
 								</fieldset>
 							</div>
 							<div class="row margin-top-30">
 								<div class="column column-1-2">
+									<span style="color: #910000;" id="msg-f"></span><span style="color: #009100;" id="msg-s"></span>
 									<p class="description t1">We will contact you within one business day.</p>
 								</div>
 								<div class="column column-1-2 align-right">
