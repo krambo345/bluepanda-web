@@ -6,6 +6,8 @@ document.addEventListener("DOMContentLoaded", () => {
     msgf = document.getElementById("msg-f");
 });
 function sendMail() {
+    msgs.innerHTML = "";
+    msgf.innerHTML = "";
     let params = {
       name: document.getElementById("userName").value,
       email: document.getElementById("email_id").value,
